@@ -125,9 +125,24 @@
     margin: 50px 100px;
     width: 400px;
 }
-.ex-10-icon {
+.ex-10-icon {  
     font-size: 60px;
+
 }
+
+.ex-10-icon{
+    animation: spin linear infinite;   
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
