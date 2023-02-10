@@ -110,6 +110,16 @@
     border-radius: 20px;
 }
 
+.well .ex-9-img{
+    transition: all 3s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(2);
+    border-radius: 20px;
+    scale: 1.5;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
