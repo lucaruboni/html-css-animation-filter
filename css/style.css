@@ -5,7 +5,11 @@
 }
 
 .well .ex-1-square{
-    t
+    transition: background-color 2s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
 }
 
 
