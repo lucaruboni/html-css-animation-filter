@@ -197,3 +197,51 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: movetop 1.5s linear 1;
+}
+
+@keyframes movetop{
+    
+    0%{
+        top: -10;
+        left: 20%;
+    }
+
+    50%{
+        top:-10;
+        left: 40%;
+    }
+
+    100%{
+        top: -10;
+        left: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: movebottom 1.5s linear infinite;
+}
+
+@keyframes movebottom{
+    
+    0%{
+        bottom: -10;
+        right: 20%;
+    }
+
+    50%{
+        bottom:-10;
+        right: 40%;
+    }
+
+    100%{
+        bottom: -10;
+        right: 20%;
+    }
+}
+
+
+
+
