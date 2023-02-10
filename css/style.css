@@ -85,6 +85,14 @@
     width: 500px;
 }
 
+.well .ex-6-img{
+    transition: all 2s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(2);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
