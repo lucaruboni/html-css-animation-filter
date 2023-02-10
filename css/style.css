@@ -132,6 +132,7 @@
 
 .ex-10-icon:hover{
     animation: spin 1s linear infinite;   
+   
 }
 
 @keyframes spin{
@@ -140,12 +141,33 @@
     }
 }
 
-
-
-
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: barely-spin 3s infinite;
+    animation-timing-function: ease;   
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+
+@keyframes barely-spin{
+    0%{
+        transform: rotate(0);
+    }
+
+    80%{
+        transform: rotate(0.8turn);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
