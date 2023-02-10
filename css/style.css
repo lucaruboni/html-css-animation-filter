@@ -130,13 +130,13 @@
 
 }
 
-.ex-10-icon{
-    animation: spin linear infinite;   
+.ex-10-icon:hover{
+    animation: spin 1s linear infinite;   
 }
 
 @keyframes spin{
     0%{
-        transform: rotate(360deg);
+        transform: rotate(1turn);
     }
 }
 
