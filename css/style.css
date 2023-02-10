@@ -47,6 +47,16 @@
     height: 100px;
     background: red;
 }
+
+.well .ex-4-square{
+    transition: all 3s;
+}
+
+.ex-4-square:hover{
+    scale: 0;
+}
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
